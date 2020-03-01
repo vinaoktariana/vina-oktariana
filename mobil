@@ -1,0 +1,24 @@
+# vina-oktariana
+
+public class Mobil {
+    int ban, kursi, bensin;
+    String warna;
+
+    void suara(){
+
+        System.out.println("grededederrr");
+    }
+    int getBan(){ //pakai int krn samain kyk yg di deklarasi
+        return ban;
+    }
+    void setBan(int banbaru){ //pake void krn mengembalikan
+        ban=banbaru;
+    }
+
+    public Mobil(int ban, int kursi){ //isi ini disebut konstruktor=buat mobil baru, krn tipe konstruktor pakai public terus bersamaan dgn nama file nya yaitu Mobil
+        this.ban=ban;
+        this.kursi=kursi;
+    }
+    public Mobil(){ //overloading=konstruktor ke2 yg tidak ada isi parameternya/parameternya berbeda
+    }
+}
