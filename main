@@ -1,0 +1,17 @@
+# vina-oktariana
+#waktu latihanbelajar codingan java pertama kali
+
+public class Main {
+    public static void main(String[] args ) { //udah ketentuan jd apalin aja= int main
+        Scanner input=new Scanner(System.in); //scanner fungsinya untuk java menerima inputan dari user
+        System.out.println("hello word"); //sama kayak di c++ program utamanya, tapi kalo kepanjangan publick static bs diapus jadi psvm
+        System.out.println("welcomee to the javanerss guyss");
+        System.out.println("yok bisa yok yakin");
+
+        Mobil lambo=new Mobil(); //
+        lambo.suara();
+        lambo.setBan(4);
+        System.out.println(lambo.getBan());
+        System.out.println(lambo.kursi);
+    }
+}
